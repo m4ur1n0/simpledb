@@ -1,0 +1,13 @@
+* Describe any design decisions you made, including methods for selectivity estimation, join ordering, as well as any of the bonus exercises you chose to implement and how you implemented them (for each bonus exercise you may submit up to 1 additional page).
+
+   * I did not choose to do any of the bonus exercises. In terms of design decisions, I kept things simple for this lab. I missed 2 lectures prior to the release of this lab, so I was really not confident in my knowledge of query optimization, and I pretty much implemented the functions as close to the instructions as possible. Even still, I ended up facing some issues, which I will surely discuss below.
+
+* Discuss and justify any changes you made to the API.
+   * I made no changes, although in my original solution (that didn’t work), I added some helper functions in tableStats that scanned the table for min and max, initialized histograms, and filled said histograms.
+
+* Describe any missing or incomplete elements of your code.
+   * There is one part of my TableStats code that is not mine at all, and replaces the broken code that I had written (which is still included). I wrote the three helper functions explained above to be a part of the TableStats initialization process. I was facing an error with absolutely NO detail regarding where it was coming from. I spent about 3 hours trying to figure it out on Thursday, then another hour and a half with Professor Rogers looking at it after class, and then another three hours on my own on Friday. I still have no idea what exactly is going on, but I narrowed it down to something about the fillhistogram function. Since I wanted to be able to test and possibly get credit for the work I did in joinOptimizer, I copied some code I found online to initialize and fill the histograms for the TableStats class. Although my min and max scan and my initialization of the histograms worked fine, I used the online solution in my TableStats class with full intent to disclose that fact, just so that it would run far enough for my joinOptimzer code to work. It is clearly marked in the file exactly where this code is. 
+
+* Describe how long you spent on the lab, and whether there was anything you found particularly difficult or confusing.
+
+   * Most of the detail about this is included above. I spent probably like 12-15 hours on this lab. Most of the time I spent was trying to debug that one weird error. I was overconfident, and believed that the error was surely something wrong with my java installation (how could it be MY fault??) but when Professor Rogers ran it on her own computer she got the same weird error. This was a real disappointment, and I was never able to figure out exactly what it actually was.

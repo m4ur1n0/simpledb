@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="dhcp-10-105-85-74.wireless.northwestern.private" name="simpledb.TableStatsTest" skipped="0" tests="1" time="1.733" timestamp="2024-05-24T18:25:43">
+  <properties>
+    <property name="testd" value="/Users/macuser/Desktop/Comp_Sci/CS339/comp_sci-339-lab3 4/test" />
+    <property name="ant.library.dir" value="/usr/local/Cellar/ant/1.10.14/libexec/lib" />
+    <property name="sourceversion" value="1.8" />
+    <property name="ant.file.type" value="file" />
+    <property name="java.specification.version" value="21" />
+    <property name="lib" value="/Users/macuser/Desktop/Comp_Sci/CS339/comp_sci-339-lab3 4/lib" />
+    <property name="ant.project.name" value="simpledb" />
+    <property name="sun.jnu.encoding" value="UTF-8" />
+    <property name="build.src" value="/Users/macuser/Desktop/Comp_Sci/CS339/comp_sci-339-lab3 4/bin/src" />
+    <property name="dist" value="/Users/macuser/Desktop/Comp_Sci/CS339/comp_sci-339-lab3 4/dist" />
+    <property name="java.class.path" value="/Users/macuser/Desktop/Comp_Sci/CS339/comp_sci-339-lab3 4/bin/src:/Users/macuser/Desktop/Comp_Sci/CS339/comp_sci-339-lab3 4/lib/zql.jar:/Users/macuser/Desktop/Comp_Sci/CS339/comp_sci-339-lab3 4/lib/jline-0.9.94.jar:/Users/macuser/Desktop/Comp_Sci/CS339/comp_sci-339-lab3 4/bin/test:/Users/macuser/Desktop/Comp_Sci/CS339/comp_sci-339-lab3 4/lib/junit-4.5.jar:/usr/local/Cellar/ant/1.10.14/libexec/lib/ant-launcher.jar:/usr/local/Cellar/ant/1.10.14/libexec/lib/ant.jar:/usr/local/Cellar/ant/1.10.14/libexec/lib/ant-junit.jar:/usr/local/Cellar/ant/1.10.14/libexec/lib/ant-junit4.jar" />
+    <property name="java.vm.vendor" value="Homebrew" />
+    <property name="ant.file.simpledb" value="/Users/macuser/Desktop/Comp_Sci/CS339/comp_sci-339-lab3 4/build.xml" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="test.reports" value="/Users/macuser/Desktop/Comp_Sci/CS339/comp_sci-339-lab3 4/testreport" />
+    <property name="compile.debug" value="true" />
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues" />
+    <property name="java.vm.specification.version" value="21" />
+    <property name="os.name" value="Mac OS X" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="user.country" value="US" />
+    <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk/21.0.2/libexec/openjdk.jdk/Contents/Home/lib" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner simpledb.TableStatsTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/macuser/Desktop/Comp_Sci/CS339/comp_sci-339-lab3 4/testreport/TEST-simpledb.TableStatsTest.xml formatter=org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter,/Users/macuser/Desktop/Comp_Sci/CS339/comp_sci-339-lab3 4/testreport/TEST-simpledb.TableStatsTest.txt crashfile=/Users/macuser/Desktop/Comp_Sci/CS339/comp_sci-339-lab3 4/junitvmwatcher2220875968230204697.properties propsfile=/Users/macuser/Desktop/Comp_Sci/CS339/comp_sci-339-lab3 4/junit7468851687877561343.properties" />
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="jdk.debug" value="release" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="user.home" value="/Users/macuser" />
+    <property name="user.language" value="en" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="java.version.date" value="2024-01-16" />
+    <property name="java.home" value="/usr/local/Cellar/openjdk/21.0.2/libexec/openjdk.jdk/Contents/Home" />
+    <property name="basedir" value="/Users/macuser/Desktop/Comp_Sci/CS339/comp_sci-339-lab3 4" />
+    <property name="file.separator" value="/" />
+    <property name="java.vm.compressedOopsMode" value="Zero based" />
+    <property name="line.separator" value="&#xa;" />
+    <property name="ant.java.version" value="21" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="doc" value="/Users/macuser/Desktop/Comp_Sci/CS339/comp_sci-339-lab3 4/javadoc" />
+    <property name="apple.awt.application.name" value="JUnitTestRunner" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="jarfile" value="/Users/macuser/Desktop/Comp_Sci/CS339/comp_sci-339-lab3 4/dist/simpledb.jar" />
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="java.runtime.version" value="21.0.2" />
+    <property name="user.name" value="macuser" />
+    <property name="ant.file" value="/Users/macuser/Desktop/Comp_Sci/CS339/comp_sci-339-lab3 4/build.xml" />
+    <property name="stdout.encoding" value="UTF-8" />
+    <property name="path.separator" value=":" />
+    <property name="os.version" value="12.7.4" />
+    <property name="build.test" value="/Users/macuser/Desktop/Comp_Sci/CS339/comp_sci-339-lab3 4/bin/test" />
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment" />
+    <property name="file.encoding" value="UTF-8" />
+    <property name="ant.project.invoked-targets" value="test-report" />
+    <property name="depcache" value="/Users/macuser/Desktop/Comp_Sci/CS339/comp_sci-339-lab3 4/bin/depcache" />
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM" />
+    <property name="java.vendor.version" value="Homebrew" />
+    <property name="ant.core.lib" value="/usr/local/Cellar/ant/1.10.14/libexec/lib/ant.jar" />
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues" />
+    <property name="java.io.tmpdir" value="/var/folders/jb/mjd6wj9s5037lv8tlgjh00g40000gn/T/" />
+    <property name="java.version" value="21.0.2" />
+    <property name="src" value="/Users/macuser/Desktop/Comp_Sci/CS339/comp_sci-339-lab3 4/src" />
+    <property name="user.dir" value="/Users/macuser/Desktop/Comp_Sci/CS339/comp_sci-339-lab3 4" />
+    <property name="os.arch" value="x86_64" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="ant.home" value="/usr/local/Cellar/ant/1.10.14/libexec" />
+    <property name="ant.file.type.simpledb" value="file" />
+    <property name="native.encoding" value="UTF-8" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.10.14 compiled on August 16 2023" />
+    <property name="java.library.path" value="/Users/macuser/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:." />
+    <property name="java.vendor" value="Homebrew" />
+    <property name="stderr.encoding" value="UTF-8" />
+    <property name="java.vm.info" value="mixed mode, sharing" />
+    <property name="build" value="/Users/macuser/Desktop/Comp_Sci/CS339/comp_sci-339-lab3 4/bin" />
+    <property name="java.vm.version" value="21.0.2" />
+    <property name="sun.io.unicode.encoding" value="UnicodeBig" />
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="java.class.version" value="65.0" />
+    <property name="ant.project.default-target" value="dist" />
+  </properties>
+  <testcase classname="simpledb.TableStatsTest" name="estimateScanCostTest" time="1.633" />
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

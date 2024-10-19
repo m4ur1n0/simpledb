@@ -1,0 +1,264 @@
+<html xmlns:string="xalan://java.lang.String" xmlns:lxslt="http://xml.apache.org/xslt">
+    <head>
+        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Unit Test Results: simpledb.TableStatsTest</title>
+        <link rel="stylesheet" type="text/css" title="Style" href="../stylesheet.css">
+        <script type="text/javascript" language="JavaScript">
+        var TestCases = new Array();
+        var cur;
+        
+    cur = TestCases['simpledb.TableStatsTest'] = new Array();
+    
+        cur['ant.core.lib'] = '/usr/local/Cellar/ant/1.10.14/libexec/lib/ant.jar';
+    
+        cur['ant.file'] = '/Users/macuser/Desktop/Comp_Sci/CS339/comp_sci-339-lab3 4/build.xml';
+    
+        cur['ant.file.simpledb'] = '/Users/macuser/Desktop/Comp_Sci/CS339/comp_sci-339-lab3 4/build.xml';
+    
+        cur['ant.file.type'] = 'file';
+    
+        cur['ant.file.type.simpledb'] = 'file';
+    
+        cur['ant.home'] = '/usr/local/Cellar/ant/1.10.14/libexec';
+    
+        cur['ant.java.version'] = '21';
+    
+        cur['ant.library.dir'] = '/usr/local/Cellar/ant/1.10.14/libexec/lib';
+    
+        cur['ant.project.default-target'] = 'dist';
+    
+        cur['ant.project.invoked-targets'] = 'test-report';
+    
+        cur['ant.project.name'] = 'simpledb';
+    
+        cur['ant.version'] = 'Apache Ant(TM) version 1.10.14 compiled on August 16 2023';
+    
+        cur['apple.awt.application.name'] = 'JUnitTestRunner';
+    
+        cur['basedir'] = '/Users/macuser/Desktop/Comp_Sci/CS339/comp_sci-339-lab3 4';
+    
+        cur['build'] = '/Users/macuser/Desktop/Comp_Sci/CS339/comp_sci-339-lab3 4/bin';
+    
+        cur['build.src'] = '/Users/macuser/Desktop/Comp_Sci/CS339/comp_sci-339-lab3 4/bin/src';
+    
+        cur['build.test'] = '/Users/macuser/Desktop/Comp_Sci/CS339/comp_sci-339-lab3 4/bin/test';
+    
+        cur['compile.debug'] = 'true';
+    
+        cur['depcache'] = '/Users/macuser/Desktop/Comp_Sci/CS339/comp_sci-339-lab3 4/bin/depcache';
+    
+        cur['dist'] = '/Users/macuser/Desktop/Comp_Sci/CS339/comp_sci-339-lab3 4/dist';
+    
+        cur['doc'] = '/Users/macuser/Desktop/Comp_Sci/CS339/comp_sci-339-lab3 4/javadoc';
+    
+        cur['file.encoding'] = 'UTF-8';
+    
+        cur['file.separator'] = '/';
+    
+        cur['ftp.nonProxyHosts'] = 'local|*.local|169.254/16|*.169.254/16';
+    
+        cur['http.nonProxyHosts'] = 'local|*.local|169.254/16|*.169.254/16';
+    
+        cur['jarfile'] = '/Users/macuser/Desktop/Comp_Sci/CS339/comp_sci-339-lab3 4/dist/simpledb.jar';
+    
+        cur['java.class.path'] = '/Users/macuser/Desktop/Comp_Sci/CS339/comp_sci-339-lab3 4/bin/src:/Users/macuser/Desktop/Comp_Sci/CS339/comp_sci-339-lab3 4/lib/zql.jar:/Users/macuser/Desktop/Comp_Sci/CS339/comp_sci-339-lab3 4/lib/jline-0.9.94.jar:/Users/macuser/Desktop/Comp_Sci/CS339/comp_sci-339-lab3 4/bin/test:/Users/macuser/Desktop/Comp_Sci/CS339/comp_sci-339-lab3 4/lib/junit-4.5.jar:/usr/local/Cellar/ant/1.10.14/libexec/lib/ant-launcher.jar:/usr/local/Cellar/ant/1.10.14/libexec/lib/ant.jar:/usr/local/Cellar/ant/1.10.14/libexec/lib/ant-junit.jar:/usr/local/Cellar/ant/1.10.14/libexec/lib/ant-junit4.jar';
+    
+        cur['java.class.version'] = '65.0';
+    
+        cur['java.home'] = '/usr/local/Cellar/openjdk/21.0.2/libexec/openjdk.jdk/Contents/Home';
+    
+        cur['java.io.tmpdir'] = '/var/folders/jb/mjd6wj9s5037lv8tlgjh00g40000gn/T/';
+    
+        cur['java.library.path'] = '/Users/macuser/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.';
+    
+        cur['java.runtime.name'] = 'OpenJDK Runtime Environment';
+    
+        cur['java.runtime.version'] = '21.0.2';
+    
+        cur['java.specification.name'] = 'Java Platform API Specification';
+    
+        cur['java.specification.vendor'] = 'Oracle Corporation';
+    
+        cur['java.specification.version'] = '21';
+    
+        cur['java.vendor'] = 'Homebrew';
+    
+        cur['java.vendor.url'] = 'https://github.com/Homebrew/homebrew-core/issues';
+    
+        cur['java.vendor.url.bug'] = 'https://github.com/Homebrew/homebrew-core/issues';
+    
+        cur['java.vendor.version'] = 'Homebrew';
+    
+        cur['java.version'] = '21.0.2';
+    
+        cur['java.version.date'] = '2024-01-16';
+    
+        cur['java.vm.compressedOopsMode'] = 'Zero based';
+    
+        cur['java.vm.info'] = 'mixed mode, sharing';
+    
+        cur['java.vm.name'] = 'OpenJDK 64-Bit Server VM';
+    
+        cur['java.vm.specification.name'] = 'Java Virtual Machine Specification';
+    
+        cur['java.vm.specification.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vm.specification.version'] = '21';
+    
+        cur['java.vm.vendor'] = 'Homebrew';
+    
+        cur['java.vm.version'] = '21.0.2';
+    
+        cur['jdk.debug'] = 'release';
+    
+        cur['junit.failed'] = 'true';
+    
+        cur['lib'] = '/Users/macuser/Desktop/Comp_Sci/CS339/comp_sci-339-lab3 4/lib';
+    
+        cur['line.separator'] = '\n';
+    
+        cur['native.encoding'] = 'UTF-8';
+    
+        cur['os.arch'] = 'x86_64';
+    
+        cur['os.name'] = 'Mac OS X';
+    
+        cur['os.version'] = '12.7.4';
+    
+        cur['path.separator'] = ':';
+    
+        cur['socksNonProxyHosts'] = 'local|*.local|169.254/16|*.169.254/16';
+    
+        cur['sourceversion'] = '1.8';
+    
+        cur['src'] = '/Users/macuser/Desktop/Comp_Sci/CS339/comp_sci-339-lab3 4/src';
+    
+        cur['stderr.encoding'] = 'UTF-8';
+    
+        cur['stdout.encoding'] = 'UTF-8';
+    
+        cur['sun.arch.data.model'] = '64';
+    
+        cur['sun.boot.library.path'] = '/usr/local/Cellar/openjdk/21.0.2/libexec/openjdk.jdk/Contents/Home/lib';
+    
+        cur['sun.cpu.endian'] = 'little';
+    
+        cur['sun.io.unicode.encoding'] = 'UnicodeBig';
+    
+        cur['sun.java.command'] = 'org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner simpledb.TableStatsTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/macuser/Desktop/Comp_Sci/CS339/comp_sci-339-lab3 4/testreport/TEST-simpledb.TableStatsTest.xml formatter=org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter,/Users/macuser/Desktop/Comp_Sci/CS339/comp_sci-339-lab3 4/testreport/TEST-simpledb.TableStatsTest.txt crashfile=/Users/macuser/Desktop/Comp_Sci/CS339/comp_sci-339-lab3 4/junitvmwatcher14093101104974023231.properties propsfile=/Users/macuser/Desktop/Comp_Sci/CS339/comp_sci-339-lab3 4/junit10555121584500054824.properties';
+    
+        cur['sun.java.launcher'] = 'SUN_STANDARD';
+    
+        cur['sun.jnu.encoding'] = 'UTF-8';
+    
+        cur['sun.management.compiler'] = 'HotSpot 64-Bit Tiered Compilers';
+    
+        cur['test.reports'] = '/Users/macuser/Desktop/Comp_Sci/CS339/comp_sci-339-lab3 4/testreport';
+    
+        cur['testd'] = '/Users/macuser/Desktop/Comp_Sci/CS339/comp_sci-339-lab3 4/test';
+    
+        cur['user.country'] = 'US';
+    
+        cur['user.dir'] = '/Users/macuser/Desktop/Comp_Sci/CS339/comp_sci-339-lab3 4';
+    
+        cur['user.home'] = '/Users/macuser';
+    
+        cur['user.language'] = 'en';
+    
+        cur['user.name'] = 'macuser';
+    </script><script type="text/javascript" language="JavaScript">
+        function displayProperties (name) {
+          var win = window.open('','JUnitSystemProperties','scrollbars=1,resizable=1');
+          var doc = win.document;
+          doc.open();
+          doc.write("<html><head><title>Properties of " + name + "</title>");
+          doc.write("<style type=\"text/css\">");
+          doc.write("body {font:normal 68% verdana,arial,helvetica; color:#000000; }");
+          doc.write("table tr td, table tr th { font-size: 68%; }");
+          doc.write("table.properties { border-collapse:collapse; border-left:solid 1 #cccccc; border-top:solid 1 #cccccc; padding:5px; }");
+          doc.write("table.properties th { text-align:left; border-right:solid 1 #cccccc; border-bottom:solid 1 #cccccc; background-color:#eeeeee; }");
+          doc.write("table.properties td { font:normal; text-align:left; border-right:solid 1 #cccccc; border-bottom:solid 1 #cccccc; background-color:#fffffff; }");
+          doc.write("h3 { margin-bottom: 0.5em; font: bold 115% verdana,arial,helvetica }");
+          doc.write("</style>");
+          doc.write("</head><body>");
+          doc.write("<h3>Properties of " + name + "</h3>");
+          doc.write("<div align=\"right\"><a href=\"javascript:window.close();\">Close</a></div>");
+          doc.write("<table class='properties'>");
+          doc.write("<tr><th>Name</th><th>Value</th></tr>");
+          for (prop in TestCases[name]) {
+            doc.write("<tr><th>" + prop + "</th><td>" + TestCases[name][prop] + "</td></tr>");
+          }
+          doc.write("</table>");
+          doc.write("</body></html>");
+          doc.close();
+          win.focus();
+        }
+      
+      </script>
+    </head>
+    <body>
+        <h1>Unit Test Results.</h1>
+        <table width="100%">
+            <tr>
+                <td align="left"></td><td align="right">Designed for use with <a href="https://www.junit.org/">JUnit</a> and <a href="https://ant.apache.org/">Ant</a>.</td>
+            </tr>
+        </table>
+        <hr size="1">
+        <h3>Class simpledb.TableStatsTest</h3>
+        <table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+            <tr valign="top">
+                <th width="80%">Name</th><th>Tests</th><th>Errors</th><th>Failures</th><th>Skipped</th><th nowrap>Time(s)</th><th nowrap>Time Stamp</th><th>Host</th>
+            </tr>
+            <tr valign="top" class="Failure">
+                <td><a title="Display all tests" href="2_TableStatsTest.html">TableStatsTest</a></td><td><a title="Display all tests" href="2_TableStatsTest.html">3</a></td><td>0</td><td><a title="Display only failures" href="2_TableStatsTest-fails.html">3</a></td><td>0</td><td>0.691</td><td>2024-05-24T00:15:39</td><td>dhcp-10-105-85-74.wireless.northwestern.private</td>
+            </tr>
+        </table>
+        <h2>Failures</h2>
+        <table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+            <tr valign="top">
+                <th>Name</th><th>Status</th><th width="80%">Type</th><th nowrap>Time(s)</th>
+            </tr>
+            <tr valign="top" class="Failure">
+                <td><a name="estimateScanCostTest"></a>estimateScanCostTest</td><td>Failure</td><td>expected:&lt;true&gt; but was:&lt;false&gt;
+                    <br>
+                    <br>
+                    <code>junit.framework.AssertionFailedError: expected:&lt;true&gt; but was:&lt;false&gt;
+                        <br>
+                        	at simpledb.TableStatsTest.estimateScanCostTest(TableStatsTest.java:61)
+                        <br>
+                        	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+                        <br>
+                    </code></td><td>0.489</td>
+            </tr>
+            <tr valign="top" class="Failure">
+                <td><a name="estimateTableCardinalityTest"></a>estimateTableCardinalityTest</td><td>Failure</td><td>expected:&lt;3060&gt; but was:&lt;0&gt;
+                    <br>
+                    <br>
+                    <code>junit.framework.AssertionFailedError: expected:&lt;3060&gt; but was:&lt;0&gt;
+                        <br>
+                        	at simpledb.TableStatsTest.estimateTableCardinalityTest(TableStatsTest.java:96)
+                        <br>
+                        	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+                        <br>
+                    </code></td><td>0.071</td>
+            </tr>
+            <tr valign="top" class="Failure">
+                <td><a name="estimateSelectivityTest"></a>estimateSelectivityTest</td><td>Failure</td><td>expected:&lt;0.0&gt; but was:&lt;1.0&gt;
+                    <br>
+                    <br>
+                    <code>junit.framework.AssertionFailedError: expected:&lt;0.0&gt; but was:&lt;1.0&gt;
+                        <br>
+                        	at simpledb.TableStatsTest.estimateSelectivityTest(TableStatsTest.java:121)
+                        <br>
+                        	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+                        <br>
+                    </code></td><td>0.050</td>
+            </tr>
+        </table>
+        <div class="Properties">
+            <a href="javascript:displayProperties('simpledb.TableStatsTest');">
+                    Properties &raquo;
+                </a>
+        </div>
+    </body>
+</html>
